@@ -1,9 +1,26 @@
+
+# Secrets
 .env
-rasad.db
+.env.*
+!.env.example
+
+# Database and user data
 *.db
+*.db-*
+*.sqlite3
 *.csv
+
+# Logs
 *.log
+*.log.*
+
+# Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+
+# Local files
 rasad_qr.png
+.idea/
+.vscode/
