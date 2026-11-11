@@ -1,0 +1,9 @@
+.env
+rasad.db
+*.db
+*.csv
+*.log
+venv/
+__pycache__/
+*.pyc
+rasad_qr.png
